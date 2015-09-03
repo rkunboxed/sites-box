@@ -56,3 +56,9 @@ Most of the setup is to get dnsmasq setup on your host machine. It's not strictl
 After that, you can visit your (empty) sites in a browser. If you defined a site called `site1` and assigned the hostname `dev1` to your machine, you'll should see it at `http://site1.dev1`. The sites themselves will have directories generated into the `/sites` directory of this project.
 
 Find out more details/docs about using the Scotch Box virtual machine that powers this at <https://box.scotch.io/>.
+
+## Adding Sites
+When you are ready to add sites, add the name for each site you'd like to spin up in `config.yaml` and run `vagrant reload --provision`
+
+## Stumbling Blocks
+If you have trouble running `vagrant up` it could be a problem with Virtual Box. See: http://davidwalsh.name/fixing-vagrant-errors. If that doesn't work, try reinstalling Virtual Box.
