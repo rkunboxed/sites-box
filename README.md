@@ -61,4 +61,4 @@ Find out more details/docs about using the Scotch Box virtual machine that power
 When you are ready to add sites, add the name for each site you'd like to spin up in `config.yaml` and run `vagrant reload --provision`
 
 ## Stumbling Blocks
-If you have trouble running `vagrant up` it could be a problem with Virtual Box. See: http://davidwalsh.name/fixing-vagrant-errors. If that doesn't work, try reinstalling Virtual Box.
+If you have trouble running `vagrant up` it could be a problem with Virtual Box. See: http://davidwalsh.name/fixing-vagrant-errors. If that doesn't work, try reinstalling Virtual Box. Lastly, restarting the computer has worked for me.
